@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import java.util.ArrayList?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.InGameSceneController">
+   <top>
+      <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="450.0" minWidth="10.0" prefWidth="450.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints maxHeight="587.0" minHeight="10.0" prefHeight="587.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="344.0" minHeight="10.0" prefHeight="113.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <FlowPane fx:id="gameLayout" alignment="CENTER" hgap="10.0" maxHeight="200.0" maxWidth="200.0" minHeight="530.0" minWidth="430.0" prefHeight="200.0" prefWidth="200.0" vgap="5.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <children>
+                  <Button fx:id="button1" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button2" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button3" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button4" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button5" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button6" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button7" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button8" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button9" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button10" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button11" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button12" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button13" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button14" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button15" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button16" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button17" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button18" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button19" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button20" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button21" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button22" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button23" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button24" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button25" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button26" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button27" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button28" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button29" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button30" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button31" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button32" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button33" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button34" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button35" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button36" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button37" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button38" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button39" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button40" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button41" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button42" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button43" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button44" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button45" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button46" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button47" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  <Button fx:id="button48" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: white;" text="Button" textFill="WHITE" />
+                  	<fx:define>
+        <ArrayList fx:id="buttons">
+            <fx:reference source="button1" />
+            <fx:reference source="button2" />
+            <fx:reference source="button3" />
+            <fx:reference source="button4" />
+            <fx:reference source="button5" />
+            <fx:reference source="button6" />
+            <fx:reference source="button7" />
+            <fx:reference source="button8" />
+            <fx:reference source="button9" />
+            <fx:reference source="button10" />
+            <fx:reference source="button11" />
+            <fx:reference source="button12" />
+            <fx:reference source="button13" />
+            <fx:reference source="button14" />
+            <fx:reference source="button15" />
+            <fx:reference source="button16" />
+            <fx:reference source="button17" />
+            <fx:reference source="button18" />
+            <fx:reference source="button19" />
+            <fx:reference source="button20" />
+            <fx:reference source="button21" />
+            <fx:reference source="button22" />
+            <fx:reference source="button23" />
+            <fx:reference source="button24" />
+            <fx:reference source="button25" />
+            <fx:reference source="button26" />
+            <fx:reference source="button27" />
+            <fx:reference source="button28" />
+            <fx:reference source="button29" />
+            <fx:reference source="button30" />
+            <fx:reference source="button31" />
+            <fx:reference source="button32" />
+            <fx:reference source="button33" />
+            <fx:reference source="button34" />
+            <fx:reference source="button35" />
+            <fx:reference source="button36" />
+            <fx:reference source="button37" />
+            <fx:reference source="button38" />
+            <fx:reference source="button39" />
+            <fx:reference source="button40" />
+            <fx:reference source="button41" />
+            <fx:reference source="button42" />
+            <fx:reference source="button43" />
+            <fx:reference source="button44" />
+            <fx:reference source="button45" />
+            <fx:reference source="button46" />
+            <fx:reference source="button47" />
+            <fx:reference source="button48" />
+        </ArrayList>
+    </fx:define>
+               </children>
+            </FlowPane>
+            <Label text="Kék játékos pontjai:" textFill="#1500ff" translateX="10.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Label text="Piros játékos pontjai:" textFill="RED" translateX="-5.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Label fx:id="scoreOfBluePlayerAsLabel" text="0" textFill="#1500ff" translateX="-5.0" translateY="-35.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM" />
+            <Label fx:id="scoreOfRedPlayerAsLabel" text="0" textFill="RED" translateX="-15.0" translateY="-35.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM" />
+            <Label fx:id="textOfCurrentPlayer" alignment="TOP_CENTER" contentDisplay="TOP" text="Piros játékos következik." textFill="RED" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="TOP" />
+            <Button fx:id="backToMainMenuInGameButton" alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="140.0" text="Vissza a főmenübe" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+   </top>
+</BorderPane>
